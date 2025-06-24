@@ -25,7 +25,7 @@ import org.slf4j.Logger;
 @Mod(ForgePluginMessageMod.MODID)
 public class ForgePluginMessageMod
 {
-    public static final String MODID = "forge-plugin-message";
+    public static final String MODID = "forgepluginmessage";
     private static final Logger LOGGER = LogUtils.getLogger();
 
     public ForgePluginMessageMod(FMLJavaModLoadingContext context)

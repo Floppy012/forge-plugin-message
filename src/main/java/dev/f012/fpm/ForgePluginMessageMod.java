@@ -36,7 +36,7 @@ public class ForgePluginMessageMod
     @SubscribeEvent
     public void onServerStarting(ServerStartingEvent event)
     {
-        LOGGER.info("ON SERVER STARTING");
+        LOGGER.info("Registering /pluginmsg command");
         event.getServer().getCommands().getDispatcher().register(
           Commands.literal("pluginmsg")
             .then(Commands.argument("player", EntityArgument.player())
